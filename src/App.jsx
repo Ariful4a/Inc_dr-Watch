@@ -128,7 +128,7 @@ function App() {
           <div className="grid grid-cols-2 gap-4 text-center">
             <div className="bg-gray-900 rounded-xl p-4 border border-gray-600">
               <div className="text-2xl font-bold text-indigo-400">{count}</div>
-              <div className="text-sm text-gray-400">Counter Value</div>
+              <div className="text-sm text-gray-400">Counter <span className='shadow-2xl text-amber-300'>Value</span></div>
             </div>
             <div className="bg-gray-900 rounded-xl p-4 border border-gray-600">
               <div className="text-2xl font-bold text-blue-400">{formatTime(time)}</div>
