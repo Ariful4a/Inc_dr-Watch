@@ -132,7 +132,7 @@ function App() {
             </div>
             <div className="bg-gray-900 rounded-xl p-4 border border-gray-600">
               <div className="text-2xl font-bold text-blue-400">{formatTime(time)}</div>
-              <div className="text-sm text-gray-400">Elapsed Time</div>
+              <div className="text-sm text-gray-400">Elapsed <span className='text-amber-300'>Time</span></div>
             </div>
           </div>
         </div>
