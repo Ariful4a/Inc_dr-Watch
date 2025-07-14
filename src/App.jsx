@@ -85,7 +85,7 @@ function App() {
           {/* Stopwatch Section */}
           <div className="bg-gray-800 rounded-2xl shadow-2xl p-8 border border-gray-700">
             <h2 className="text-2xl font-semibold text-gray-200 mb-6 text-center">
-              Stopwatch
+              Stopw<span className='text-orange-600'>atch</span>
             </h2>
 
             <div className="flex flex-col items-center space-y-6">
